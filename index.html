@@ -1,20 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>vvai</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+  <title>vitalik vojtehovsky</title>
+  <style type="text/css">
+        html, body {
+          background: yellow; 
+          font-family: 'Karla', sans-serif;
+          width: 100%;
+          height: 100%;
+          padding: 0;
+          margin: 0;
+        }
+
+        a {
+          color: black;
+          text-decoration: none;
+          border-bottom: 0.08em solid rgba(0, 0, 0, 0.5);
+
+        }
+
+        li {
+          margin-top: 0.4em;
+        }
+
+        main {
+
+          width: 100%;
+          height: 100%;
+          margin: 1em;
+          margin-top: 2em;
+          display: flex;
+          flex-direction: column;
+        }
+
+        section {
+          margin: 1em; 
+        }
+
+        .title {
+          margin-top: 0;
+        }
+
+        .contacts {
+          list-style-type: none;
+          padding: 0;
+        }
+
+        @media (min-width: 650px) {
+          main {
+            flex-direction: row;
+        }
+  
+}
+  </style>
 </head>
 <body>
-    <h2>Vitalik Vojtehovsky</h2>
-    <p>Web developer</p>
-    <h4>Links</h4>
-    <ul style="list-style-type: none;">
+  <main>
+    <section class="name">Vitalik Vojtehovsky</section>
+    <section class="about">
+      <p class="title">Web Developer</p>
+     
+      <ul class="contacts">
         <li><a href="mailto:vojtehovsky@gmail.com">gmail</a></li>
         <li><a href="https://twitter.com/vvai3">twitter</a></li>
         <li><a href="https://github.com/vvai">github</a></li>
         <li><a href="https://www.linkedin.com/in/vitalik-vojtehovsky-4646a584">linkedin</a></li>
         <li><a href="https://plus.google.com/+VitalikVojtehovsky_vvai">google+</a></li>
         <li><a href="https://www.facebook.com/vitalik.vojtehovsky">facebook</a></li>
-    </ul>
+      </ul>
+     
+    </section>
+  </main>
 </body>
 </html>
