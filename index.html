@@ -7,7 +7,6 @@
   <title>vitalik vojtehovsky</title>
   <style type="text/css">
         html, body {
-          background: yellow; 
           font-family: 'Karla', sans-serif;
           width: 100%;
           height: 100%;
@@ -30,8 +29,13 @@
 
           width: 100%;
           height: 100%;
-          margin: 1em;
-          margin-top: 2em;
+          margin: 0;
+
+        }
+
+        .content {
+          padding: 1em;
+          padding-top: 2em;
           display: flex;
           flex-direction: column;
         }
@@ -50,29 +54,34 @@
         }
 
         @media (min-width: 650px) {
-          main {
+          .content {
             flex-direction: row;
+          }
+          .name {
+            margin-right: 15em;
+          }
+
         }
-  
-}
   </style>
 </head>
 <body>
   <main>
-    <section class="name">Vitalik Vojtehovsky</section>
-    <section class="about">
-      <p class="title">Web Developer</p>
-     
-      <ul class="contacts">
-        <li><a href="mailto:vojtehovsky@gmail.com">gmail</a></li>
-        <li><a href="https://twitter.com/vvai3">twitter</a></li>
-        <li><a href="https://github.com/vvai">github</a></li>
-        <li><a href="https://www.linkedin.com/in/vitalik-vojtehovsky-4646a584">linkedin</a></li>
-        <li><a href="https://plus.google.com/+VitalikVojtehovsky_vvai">google+</a></li>
-        <li><a href="https://www.facebook.com/vitalik.vojtehovsky">facebook</a></li>
-      </ul>
-     
-    </section>
+    <div class="content">
+      <section class="name">Vitalik Vojtehovsky</section>
+      <section class="about">
+        <p class="title">Web Developer</p>
+
+        <ul class="contacts">
+          <li><a href="mailto:vojtehovsky@gmail.com">gmail</a></li>
+          <li><a href="https://twitter.com/vvai3">twitter</a></li>
+          <li><a href="https://github.com/vvai">github</a></li>
+          <li><a href="https://www.linkedin.com/in/vitalik-vojtehovsky-4646a584">linkedin</a></li>
+          <li><a href="https://plus.google.com/+VitalikVojtehovsky_vvai">google+</a></li>
+          <li><a href="https://www.facebook.com/vitalik.vojtehovsky">facebook</a></li>
+        </ul>
+
+      </section>
+    </div>
   </main>
 </body>
 </html>
